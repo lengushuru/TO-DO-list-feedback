@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #f7f4f4;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 40vw;
+  padding: 50px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.top-list {
+  display: flex;
+  border: red;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.top-list h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 2% 5%;
+}
+
+.recycle {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 2% 5%;
+  cursor: pointer;
+}
+
+.task-input {
+  display: flex;
+  height: 52px;
+  justify-content: space-between;
+  margin-top: 2%;
+  border-bottom: 1px solid #e9e6e6;
+}
+
+.enter {
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.no-item {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5%;
+  color: rgba(250, 2, 51, 0.815);
+}
+
+.task-input input {
+  padding: 0 5%;
+  width: 90%;
+  outline: none;
+  font-size: 1rem;
+  font-style: italic;
+  border: none;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-box .task {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 17px;
+  border-bottom: 1px solid #ccc;
+}
+
+.checkme {
+  margin-right: 2%;
+}
+
+.tasks {
+  width: 75%;
+  border: none;
+  outline: none;
+}
+
+.clearCompleted {
+  background: none;
+  text-align: center;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
+
+i {
+  font-size: 0.99rem;
+  color: rgb(156, 153, 153);
+  cursor: pointer;
+}
